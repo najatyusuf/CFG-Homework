@@ -2,6 +2,7 @@ Question 1
 
 
 **GIT WORKFLOW FUNDAMENTALS**
+
 Working Directory:
 The working directory contains all the files and folders in your project that you are currently writing and editing. It is a filesystem where you are able to view files and make changes to them. 
 
@@ -15,6 +16,7 @@ Remote Repo (master)
 The remote repository is a Git repository that is stored remotely on another computer. This will be a repository that is shared by all members of your team and is used to display changes made to the project. The remote repository contains all the modifications and different versions of projects that you and your team members have contributed towards, that are hosted on the internet. 
 
 **WORKING DIRECTORY STATES**
+
 Staged:
 The staged command allows you to make changes in the working directory. When interacting with Git, staging will enable you to record changes in small commits. Meaning as you progress in your file, staging will allow you to record these changes by doing a commit gradually. 
 
@@ -26,6 +28,7 @@ When you commit you are storing ‘snapshots’ or ‘milestones’ that will fo
 
 
 **GIT COMMANDS**
+
 Git add:
 The git add command will add and update the current version of a file from the working directory to the staging area. This command informs Git to include the updated file in the next commit. This will not affect the local repository until the command git commit is run. 
 
