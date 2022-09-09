@@ -97,8 +97,6 @@ def user_enquiries():
         elif user_input == 3:
             print('Exit program. Please remove your card')
 
-    # return pin
-
 def main2():
     user_enquiries()
 
