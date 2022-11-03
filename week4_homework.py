@@ -1,14 +1,14 @@
-def search_in_matrix(matrix, target, length):
+def search_in_matrix(matrix, target, width):
     """
     :param matrix: matrix (list of lists)
     :param target: target value to search in matrix
-    :param length: length of matrix
+    :param width: width of matrix
     :return: coordinates of target value
     """
     i = 0
-    j = length - 1  # top right element
+    j = width - 1  # index of the top right element
 
-    while i < length and j >= 0:
+    while i < width and j >= 0:
 
         if matrix[i][j] == target:
             return [i, j]
@@ -29,7 +29,7 @@ matrx = [
 ]
 
 targ = 44
-matrx_len = len(matrx[0])
+matrx_len = len(matrx[0])  # width of matrix
 
 # returns target coordinates if in matrix
 print(search_in_matrix(matrx, targ, matrx_len))
